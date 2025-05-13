@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Blogul celenteratelor</title>
+  <style>
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fefefe;
+    }
+
+    header {
+      background-color: #ffb6c1;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .intro {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background-color: #fff0f5;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+
+    .intro img {
+      width: 200px;
+      border-radius: 10px;
+    }
+
+    .previews {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #ffb6c1;
+      text-align: center;
+      padding: 10px;
+      margin-top: 30px;
+    }
+
+    <header>
+    <div>
+      Abonează-te la noutăți:
+      <input type="email" placeholder="Introdu adresa de email">
+      <button>Subscribe</button>
+    </div>
+  </style>
+</head>
+<body>
+  <header>
+    <div class="subscribe-bar">
+        <label for="email">Abonează-te la noutăți:</label>
+        <input type="email" id="email" placeholder="Introdu adresa de email">
+        <button>Subscribe</button>
+      </div>
+    <h1>Bine ai venit pe Blogul celenteratelor!</h1>
+    <nav>
+      <a href="index.html">Acasă</a>
+      <a href="reviews.html">Recenzii</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">Despre</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <img src="imagini/meduza1.jpg" alt="Celenterate">
+      <div>
+        <h2>Despre celenterate</h2>
+        <p>Celenterate sunt o subdiviziune de animale nevertebrate, acvatice, ce trăiesc în orice mediu salin.Corpul lor este pluricelular, fără organe. Are formă de sac, cu un singur orificiu buco-anal, înconjurat de tentacule.
+Au corpul format din două foițe embrionare și anume ectoderm și endoderm.</p>
+<p>De regulă celenteratele se hrănesc cu pești. Cavitatea gastrică are aspect saciform, ca la hidrozoare. Secundar această cavitate se compartimentează cum se întâmplă la polipii de scifozoare și anthozoare.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Ultimele articole</h2>
+      <div class="previews">
+        <div class="card">
+          <img src="imagini/aurelia.jpeg" alt="Aurelia aurita">
+          <h3>Aurelia aurita</h3>
+          <p>Una dintre cele mai cunoscute meduze este meduza luna (Aurelia aurita). Ea se poate intalni in majoritatea zonelor temperate si chiar pana la tropice dar si in Marea Neagra. Ea a fost si este crescuta in captivitate cu success insa este nevoie de multe resurse (atat materiale cat si non-materiale) pentru a intretine o meduza </p>
+        </div>
+        <div class="card">
+          <img src="imagini/Cassiopea.jpeg" alt="Casssiopea">
+          <h3>Cassiopea sp.</h3>
+          <p>O alta meduza foarte indragita este Cassiopea, ea se gaseste in apele calde ale Pacificului, in Filipine si chiar Hawai. Creste pana la 20cm in diametru si adesea stau pe nisip insa sunt capabile sa si inoate in coloana de apa. Pe aceasta meduza cresc alge care ii asigura acesteia o parte din hrana necesara, prin fotosinteza, deci au nevoie de lumina, insa se hranesc si cu plancton, asemeni altor meduze.</p>
+        </div>
+        <div class="card">
+          <img src="imagini/Irukandji.jpg" alt="Irukandji">
+          <h3>Irukandji</h3>
+          <p>Datorita taliei si concentratiei veninului, implicit intensitatii urzicaturii o sa acord o mai mare atentie acestor meduze. Exista doua specii de irukandji, Carukia barnesi si Malo kingi. Aceaste meduze sunt foarte mici, corpul lor are doar 1cm³ insa tentaculele pot avea si 1m lungime. Se pot intalni pe tarmurile de Nord si Nord-Est ale Australiei si sunt conoscute datorita faptului ca urzica anual mai multi inotatori iar plajele sunt uneori inchise pentru mai multe zile din cauza lor.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Popa Florena</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact - Blogul Florenei</title>
+         <style>
+body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fefefe;
+    }
+
+    header {
+      background-color: #ffb6c1;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .intro {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background-color: #fff0f5;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+
+    .intro img {
+      width: 200px;
+      border-radius: 10px;
+    }
+
+    .previews {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #ffb6c1;
+      text-align: center;
+      padding: 10px;
+      margin-top: 30px;
+    }
+    .subscribe{
+    padding: 10px;
+    background-color: burlywood;
+}
+.subscribe input{
+    width: 200px;
+    padding: 5px;
+}
+.subscribe button{
+    background-color: cornsilk;
+    border: none;
+    padding: 5px 10px;
+    color: black;
+    font-weight: bold;
+}
+
+    <header>
+    <div>
+      Abonează-te la noutăți:
+      <input type="email" placeholder="Introdu adresa de email">
+      <button>Subscribe</button>
+    </div>
+  </style>
+  </style>
+
+      </head>
+      <body>
+  <header>
+    <div class="newsletter-bar">
+      <label for="newsletter-email">Abonează-te la noutăți:</label>
+      <input type="email" id="newsletter-email" placeholder="Introdu adresa de email">
+      <button>Subscribe</button>
+    </div>
+    <h1>Contactează-mă</h1>
+    <nav>
+      <a href="index.html">Acasă</a>
+      <a href="reviews.html">Recenzii</a>
+      <a href="contact.html">Contact</a>
+       <a href="about.html">Despre</a>
+    </nav>
+  </header>
+
+  <main>
+    <form action="mailto:popaflorena@example.com" method="post" enctype="text/plain">
+      <label for="name">Nume:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="country">Țara în care trăiești:</label>
+      <select id="country" name="country" required>
+        <option value="">-- Selectează țara --</option>
+        <option value="romania">România</option>
+        <option value="moldova">Republica Moldova</option>
+        <option value="italia">Italia</option>
+        <option value="spania">Spania</option>
+        <option value="germania">Germania</option>
+        <option value="franta">Franța</option>
+        <option value="uk">Regatul Unit</option>
+        <option value="statele-unite">Statele Unite</option>
+        <option value="alta">Altă țară</option>
+      </select>
+
+      <label for="message">Mesaj:</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <input type="submit" value="Trimite">
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Popa Florena</p>
+  </footer>
+</body>
+</html>
